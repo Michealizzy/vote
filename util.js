@@ -27,3 +27,5 @@ function calVotesPercentage (Votes){
         noPercentage: noPercentage.toFixed(2)
     }
 }
+
+//this is a voting app that shows the percentage of the voters
