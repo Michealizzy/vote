@@ -27,5 +27,3 @@ function calVotesPercentage (Votes){
         noPercentage: noPercentage.toFixed(2)
     }
 }
-
-let percentage = calVotesPercentage (20)
