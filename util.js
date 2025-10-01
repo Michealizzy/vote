@@ -10,7 +10,7 @@ export function incrementYes(votes) {
 function calVotesPercentage (Votes){
     const yesVotes = Votes.yes || 0;
     const noVotes = Votes.no || 0;
-    const totalVotes = yesVotes + noVotes;
+    const totalVotes = yesVotes + noVotes; 
 
     if (totalVotes ===0) {
         return {
